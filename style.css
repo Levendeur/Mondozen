@@ -8,3 +8,13 @@ body {
 h1 {
   color: #333;
 }
+#cart {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #3b82f6;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: bold;
+}
