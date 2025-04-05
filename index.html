@@ -9,38 +9,41 @@
   <header class="header">
     <h1>Bienvenue sur Mondozen</h1>
     <p>Votre bazar zen en ligne</p>
+    <div id="cart">Panier : <span id="cart-count">0</span> article(s)</div>
   </header>
 
   <main>
     <section class="products">
       <div class="product">
-        <img src="images/produit1.png" alt="Produit 1">
+        <img src="produit1.jpg" alt="Produit 1">
         <h2>Produit 1</h2>
         <p>10 €</p>
-        <button>Ajouter au panier</button>
+        <button onclick="addToCart()">Ajouter au panier</button>
       </div>
-      
+
       <div class="product">
-        <img src="images/produit2.jpg" alt="Produit 2">
+        <img src="produit2.jpg" alt="Produit 2">
         <h2>Produit 2</h2>
         <p>15 €</p>
-        <button>Ajouter au panier</button>
+        <button onclick="addToCart()">Ajouter au panier</button>
       </div>
 
       <div class="product">
-        <img src="images/produit3.jpg" alt="Produit 3">
+        <img src="produit3.jpg" alt="Produit 3">
         <h2>Produit 3</h2>
         <p>20 €</p>
-        <button>Ajouter au panier</button>
+        <button onclick="addToCart()">Ajouter au panier</button>
       </div>
 
       <div class="product">
-        <img src="images/produit4.jpg" alt="Produit 4">
+        <img src="produit4.jpg" alt="Produit 4">
         <h2>Produit 4</h2>
         <p>25 €</p>
-        <button>Ajouter au panier</button>
+        <button onclick="addToCart()">Ajouter au panier</button>
       </div>
     </section>
   </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
